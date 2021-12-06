@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <style> 
+    .footer {  
+    padding: 60px 0;  
+    width: 100%;  
+    background: #000000;  
+    color: #fff;  
+    }  
+        </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+    <nav class="navbar navbar-inverse">
+                <a class="navbar-brand" href="#"><img src="imgnew/dances.jpg" style="width:80px;height:80px"></a>
+                <div class="container-fluid">
+                        <button class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="mynav">
+                            <ul class="nav navbar-nav navbar-right">
+                              <li><button class="btn btn-warning navbar-btn">Search</button></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Dance classes</a></li>
+                        <li><a href="#">Fees and Timings</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Book for Trial</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Dance Course <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Aerobic Dance classes</a></li>
+                            <li><a href="#">Ballet Dance Classes</a></li>
+                            <li><a href="#">Belly Dnace classes</a></li>
+                            <li><a href="#">Bollywood Dance classes</a></li>
+                            <li><a href="#">Classical Dance classes</a></li>
+                          </ul>
+                        </li>
+                       
+                        <li><button class="btn btn-info" data-toggle="modal" data-target="#firstmodal">Login</button></li>
+        
+        <div class="modal" id ="firstmodal">
+            <div class="modal-dialog modal-sm modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Login</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form role="form" action="">
+                                <div class="form-group">
+                                <label class="control-label">Email Address</label>
+                                <div>
+                                 <input type="email" class="form-control" name="email" value="">
+                                </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Password</label>
+                                    <div>
+                                        <input type="password" class="form-control" name="password">
+                                    </div>
+                                </div>
+                          
+                            <div class="modal-footer">
+                                <button class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button class="btn btn-primary" data-dismiss="modal">Login</button>     
+                              </div>
+                </div>
+            </div>
+        </div>
+      </div>
+         </ul>
+               </div>
+<h1 class="text-center text-warning" >Dance Expressions Academy</h1>
+<p class="text-center text-danger">Learn traditional, Salsa, Jazz, Bollywood, Ballet dance here. No.1 professional dance class in Patna </p>
+    <hr>
+              </div>
+      </nav>
+    </div>
+    <div class="container-fluid">
+      <ul class="breadcrumb">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>    
+      </ul>
+  </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-warning progress-bar-striped active"  role="progressbar" aria-valuenow="40" aria-valuemin="0"
+        aria-valuemax="50" style="width:60%">60% Admission Completed</div>
+                </div>
+                
+                  </div>
+                <h2>Dances Course</h2> 
+    <div class="container">
+        <div class="row row-content">
+            <div class ="col">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="imgnew/kathakk.jpg" alt="view" style="width:100%;">
+          <div class="carousel-caption d-none d-md-block">
+          <h2>Kathak</h2>
+          </div>
+        </div>
+  
+        <div class="item">
+          <img src="imgnew/Bharatnatayam.jpg" alt="view" style="width:100%;">
+          <div class="carousel-caption d-none d-md-block">
+          <h2>Bharatnatayam</h2>
+          </div>
+        </div>
+      
+        <div class="item">
+          <img src="imgnew/bollywood.jpg" alt="view" style="width:100%;">
+          <div class="carousel-caption d-none d-md-block">
+          <h2>Bollywood Dances</h2>
+        </div>
+        </div>
+        <div class="item">
+            <img src="imgnew/jazz.jpg" alt="view" style="width:100%;">
+            <div class="carousel-caption d-none d-md-block">
+                <h2>Jazz <span class="badge badge-warning">New</span> <span class="badge badge-pill badge-default">$4.99</span></h2>
+                </div>
+          </div>
+      </div>
+  
+    
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  </div>
+  </div>
+  <br>
+  <div class="container-fluid bg-info">
+  <h1 class="text-center">Book a free Trial with Us</h1>
+  <h3 class="text-center">Fill the form and our representative will contact you soon !</h3>
+  <form class="form-horizontal">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-4">
+        <input type="email" class="form-control" id="email" placeholder="Enter email">
+        </div>
+        <div class="alert alert-info">
+          <strong>Alert!</strong>You have entered <a href="#" class="alert-link">wrong email-id</a>
+        </div>
+    
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-4">
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Phone:</label>
+      <div class="col-sm-4">
+        <input type="phone" class="form-control" id="phone" placeholder="Phone">
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="form-group">
+      <label class="control-label col-sm-2 col-sm-2">Select Dance:</label>
+      <div class="col-sm-4">
+      <select class="form-control" id="sel">
+        <option>Bollywood</option>
+        <option>Classical </option>
+        <option>Jazz</option>
+        <option>Salsa</option>
+      </select>
+      </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="pwd">Location:</label>
+        <div class="col-sm-4">
+          <input type="text" class="form-control" id="text" placeholder="Location">
+        </div>
+      </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label><input type="checkbox"> Remember me</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </form>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row row-content align-items-center">
+    <div class="col-12 col-sm-4 order-sm-last col-md-3">
+        <h3>Dance Expressions Academy</h3>
+        <h4>Online Classes</h4>
+        <h5 class="text-muted text-justify">Expressions has brought another unthought idea of continuing the process of training and learning several dance forms
+           that too in online dance classes. In this period of lockdown when everyone is locked at their homes and when we all are missing our dance
+            pieces of training, Expressions has brought this idea of virtual dance classes.</h5>
+            <button class="btn btn-warning btn-justify ">Join now</button>
+            
+    </div>
+    
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="imgnew/dances.jpg">
+            <img src="imgnew/kathak.jpg" alt="kathak" width="450" height="256">
+            <div class="caption">
+              <p>Classical</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="imgnew/modern.png">
+              <img src="imgnew/hop.jpg" alt="hop" width="250" height="150">
+                            <div class="caption">
+                <p>Modern</p>
+              </div>
+            </a>
+          </div>
+        </div>
+</div>
+</div>
+</div>
+<div class="container-fluid bg-success">
+  <button class="btn-warning"><a href="#" data-toggle="tooltip" title="Contact us at +67543251">Book for Trial</a></button>
+</div>
+<script>
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+  });
+  </script>
+  <div class="container-fluid">
+    <h1 class="text-center">Dance Instructor</h1>
+    <div class="row">
+      <div class="col-md-4 bg-success">
+        <h3 class="text-center">Geeta Singh</h3>
+        <img src="imgnew/classical.jpg" class="img-circle" alt="classical" width="304" height="236"> 
+        <div class="caption text-justify">
+          One of her kind, Geeta takes up the choreography as if it is there in her blood.
+           She specialises in semi-classical form of dance which she does and makes you do in the best way possible.
+        </div>
+      </div>
+      <div class="col-md-4 bg-warning">
+        <h3 class="text-center">Namrita Roy</h3>
+        <img src="imgnew/namr.jpg" class="img-circle" alt="namr" width="304" height="236"> 
+        <div class="caption text-justify">
+          One of the gem of Expressions Dance Academy, who has now been featured in numerous albums and songs. Apart from being a fascinating dancer herself, 
+          she specialises in the dance forms like Bollywood and belly. 
+        </div>
+      </div>
+      <div class="col-md-4  bg-danger">
+        <h3 class="text-center">Abhijeet Singh Khurana</h3>
+        <img src="imgnew/namr.jpg" class="img-circle" alt="namr" width="304" height="236"> 
+        <div class="caption text-justify">
+          Hip-Hop dude as known in Expressions, Abhijeet is trained and master of techniques and know-how of Hip-hop.
+           It may be any aspect; he is the one to know it all. From ‘Old-School’ to “Urban” 
+        </div>
+      </div>  
+</div> 
+  </div>
+  </div>
+</body>
+<br>
+<br>
+<footer class="footer">
+  <div class="container">
+      <div class="row">             
+          <div class="col-4 offset-1 col-sm-2">
+              <h5>Links</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Dance Classes</a></li>
+                  <li><a href="#">Timing</a></li>
+                  <li><a href="#">Fee</a></li>
+              </ul>
+          </div>
+          <div class="col-7 col-sm-5 align-self-center">
+              <h5>Our Address</h5>
+              <address>
+            121, M.G. Road<br>
+            M.G. Road, Delhi<br>
+            India<br>
+            <i><span class="glyphicon glyphicon-phone"></i>: +852 1234 5678<br>
+            <i><span class="glyphicon glphicon-fax"></i>: +852 8765 4321<br>
+            <i ><span class="glyphicon glyphicon-envelope"></i>: <a href="mailto:danceexpressions.gmail">danceexpressions@.gmail</a>
+         </address>
+          </div>
+          
+     </div>
+     <div class="row justify-content-center">             
+          <div class="col-auto">
+              <p>© Copyright 2021 Dance Expressions Academy</p>
+          </div>
+     </div>
+  </div>
+</footer>
+
+</body>
+</html>
